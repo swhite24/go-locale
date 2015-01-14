@@ -72,7 +72,7 @@ func NewLocale(l string) (*Locale, error) {
 // Read receives a complete Accept-Language header and delivers a reference
 // to a Locales, containing references to a *Locale for each definition in
 // the Accept-Language header.
-func Read(header string) *Locales {
+func Read(header string) Locales {
 	// Initialize Locales
 	locales := Locales{}
 
@@ -86,7 +86,7 @@ func Read(header string) *Locales {
 		}
 	}
 
-	return &locales
+	return locales
 }
 
 // Best delivers the locale with the highest quality score
