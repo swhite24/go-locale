@@ -31,8 +31,6 @@ func main() {
 }
 ```
 
-Outputs
-
 # TODO
 
 Add support for determining best based on a list of supported locale
