@@ -1,5 +1,7 @@
 # go-locale
 
+[![Build Status](https://travis-ci.org/swhite24/go-locale.svg)](https://travis-ci.org/swhite24/go-locale)
+
 Simple package to determine best locale based on a proper `Accept-Language`
 header.
 
